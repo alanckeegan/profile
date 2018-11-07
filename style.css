@@ -1,0 +1,80 @@
+body {
+  color: rgb(90, 90, 90);
+  background-color: rgb(240, 250, 250);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+div {
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.1)
+  border-radius: 3px;
+  padding: 45px;
+  }
+
+h1, h2, h3{
+  text-transform: capitalize;
+   color: rgb(20, 20, 20);
+   font-family: Helvetica;
+}
+
+h1{
+  /*letter-spacing: -2px;*/
+  font-weight: bold;
+}
+table th{
+  font-size: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline li {
+  display:inline-block;
+  padding: 35px;
+  font-size: 55px;
+}
+
+.card-cream{
+  background-color: rgb(249, 238, 217);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.btn-big{
+  background-color: rgb(100, 50, 200);
+  color: rgb(249, 238, 217);
+  padding: 30px;
+  border-radius: 6px
+}
+
+a{
+  color: rgb(100, 50, 200);
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+a:hover{
+  color: rgb(150, 150, 250);
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+.img-large {
+  width: 150px;
+}
+
+.img-medium {
+  width: 90px;
+}
+
